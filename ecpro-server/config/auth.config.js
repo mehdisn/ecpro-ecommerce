@@ -1,3 +1,3 @@
 module.exports = {
-    secret: "mehdi-secret-key"
+    secret: "auth-secret-key"
 };
