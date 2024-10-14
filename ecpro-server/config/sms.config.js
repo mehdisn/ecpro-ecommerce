@@ -1,9 +1,9 @@
 const MelipayamakApi = require('melipayamak')
 
-const username = '09224289801';
-const password = '6371';
+const username = 'user';
+const password = 'user-pass';
 const api = new MelipayamakApi(username, password);
-const from = '50004000899801';
+const from = 'from';
 const sms = api.sms('rest', 'sync');
 const contact = api.contacts();
 
@@ -26,8 +26,8 @@ const addToContacts = async (firstName, phoneNumber, email) => {
             NickName: "ss",
             Corporation: "ss",
             MobileNumber: phoneNumber,
-            Phone: "0922",
-            Fax: "0922",
+            Phone: "phone",
+            Fax: "fax",
             birthdate: date.toISOString(),
             Email: email,
             Gender: 2,
