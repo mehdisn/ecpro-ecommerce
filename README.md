@@ -1,6 +1,6 @@
 # Ecpro E-commerce
 
-A B2C Persian e-commerce platform built using **Node.js** and **React Native** to provide a seamless online shopping experience.
+A B2C e-commerce platform built using **Node.js** and **React Native** to provide a seamless online shopping experience.
 
 ## Features
 
